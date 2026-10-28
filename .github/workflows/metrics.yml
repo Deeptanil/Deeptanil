@@ -49,3 +49,4 @@ jobs:
           plugin_languages_threshold: 0%
           output_action: commit
           committer_message: "chore: update languages metrics [skip ci]"
+
