@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== HERO COMIC BANNER ==================== -->
-  <img src="./assets/hero-banner.svg" alt="Deeptanil Sinha - Product Engineer & Systems Builder" width="100%" />
+  <img src="./assets/hero-banner.svg" alt="Deeptanil Sinha - Product Engineer &amp; Systems Builder" width="100%" />
 
   <br/><br/>
 
@@ -55,7 +55,7 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://prettiva.co" target="_blank">
-        <img src="./assets/card-prettiva.svg" alt="Prettiva & Co. - High Scale Storefront" width="100%" />
+        <img src="./assets/card-prettiva.svg" alt="Prettiva &amp; Co. - High Scale Storefront" width="100%" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
@@ -80,7 +80,7 @@
 
   <br/><br/>
 
-  <!-- Comic Badge Row: Languages & Frameworks -->
+  <!-- Badge Row: Languages & Frameworks -->
   <a href="#">
     <img src="https://img.shields.io/badge/Python_3.14-000000?style=for-the-badge&logo=python&logoColor=FFE600" alt="Python" />
   </a>
@@ -98,7 +98,7 @@
   </a>
   &nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=FF2A85" alt="React Native" />
+    <img src="https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=FF2E93" alt="React Native" />
   </a>
   &nbsp;
   <a href="#">
@@ -107,13 +107,13 @@
 
   <br/><br/>
 
-  <!-- Comic Badge Row: Cloud & Infrastructure -->
+  <!-- Badge Row: Cloud & Infrastructure -->
   <a href="#">
     <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00F0FF" alt="Docker" />
   </a>
   &nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/Oracle_Cloud_(OCI)-000000?style=for-the-badge&logo=oracle&logoColor=FF2A85" alt="Oracle Cloud" />
+    <img src="https://img.shields.io/badge/Oracle_Cloud_(OCI)-000000?style=for-the-badge&logo=oracle&logoColor=FF2E93" alt="Oracle Cloud" />
   </a>
   &nbsp;
   <a href="#">
@@ -121,7 +121,7 @@
   </a>
   &nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=FF2A85" alt="Redis" />
+    <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=FF2E93" alt="Redis" />
   </a>
   &nbsp;
   <a href="#">
@@ -129,7 +129,7 @@
   </a>
   &nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/Google_UX_Design-000000?style=for-the-badge&logo=google&logoColor=10B981" alt="Google UX" />
+    <img src="https://img.shields.io/badge/Google_UX_Design-000000?style=for-the-badge&logo=google&logoColor=00FF66" alt="Google UX" />
   </a>
 
 </div>
@@ -160,17 +160,17 @@
   <table width="100%" border="0" cellspacing="10" cellpadding="0">
     <tr>
       <td width="50%" align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=Deeptanil&show_icons=true&bg_color=111118&title_color=FFE600&text_color=FFFFFF&icon_color=FF2A85&border_color=000000&border_radius=10&count_private=true" alt="Deeptanil's GitHub Stats" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Deeptanil&show_icons=true&bg_color=0B0E17&title_color=FFE600&text_color=FFFFFF&icon_color=FF2E93&border_color=000000&border_radius=10&count_private=true" alt="Deeptanil's GitHub Stats" width="100%" />
       </td>
       <td width="50%" align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deeptanil&layout=compact&bg_color=111118&title_color=00F0FF&text_color=FFFFFF&border_color=000000&border_radius=10" alt="Top Languages" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deeptanil&layout=compact&bg_color=0B0E17&title_color=00F0FF&text_color=FFFFFF&border_color=000000&border_radius=10" alt="Top Languages" width="100%" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Deeptanil&theme=dark&background=111118&border=000000&stroke=FFE600&ring=FF2A85&fire=FF2A85&currStreakNum=00F0FF&sideNums=FFE600&sideLabels=FFFFFF&currStreakLabel=00F0FF&border_radius=10" alt="GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Deeptanil&theme=dark&background=0B0E17&border=000000&stroke=FFE600&ring=FF2E93&fire=FF2E93&currStreakNum=00F0FF&sideNums=FFE600&sideLabels=FFFFFF&currStreakLabel=00F0FF&border_radius=10" alt="GitHub Streak" width="100%" />
 
 </div>
 
@@ -186,7 +186,7 @@
 
   <p align="center">
     <b>Got an ambitious project, systems challenge, or zero-to-one venture?</b><br/>
-    <i>Transmitting on all channels. Reach out anytime!</i>
+    <i>Transmitting on all frequencies. Reach out anytime.</i>
   </p>
 
   <a href="https://deeptanil.in" target="_blank">
@@ -208,6 +208,6 @@
   <br/><br/>
   
   <p align="center">
-    <sub>⚡ Designed in Neo-Brutalist Comic Pop Style • Built &amp; Maintained by <b>Deeptanil Sinha</b> ⚡</sub>
+    <sub>Neo-Brutalist Architecture • Vector SVG Icons • Built &amp; Maintained by <b>Deeptanil Sinha</b></sub>
   </p>
 </div>

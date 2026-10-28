@@ -2,18 +2,20 @@
   <defs>
     <style>
       .comic-btn {
-        font-family: 'Impact', 'Arial Black', -apple-system, sans-serif;
-        font-weight: 900;
+        font-family: 'Space Grotesk', 'Impact', sans-serif;
+        font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 0.8px;
-        font-size: 14px;
+        font-size: 13px;
       }
     </style>
   </defs>
   <rect x="4" y="4" width="157" height="40" rx="8" fill="#000000" />
-  <rect x="1" y="1" width="157" height="40" rx="8" fill="#FF2A85" stroke="#000000" stroke-width="2.5" />
-  <text x="79" y="26" fill="#FFFFFF" text-anchor="middle" class="comic-btn">
-    📫 EMAIL ME
+  <rect x="1" y="1" width="157" height="40" rx="8" fill="#FF2E93" stroke="#000000" stroke-width="2.5" />
+  <!-- Vector Mail Icon -->
+  <rect x="20" y="14" width="16" height="12" rx="1.5" stroke="#FFFFFF" stroke-width="1.8" fill="none" />
+  <path d="M20 15 L28 21 L36 15" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" fill="none" />
+  <text x="94" y="26" fill="#FFFFFF" text-anchor="middle" class="comic-btn">
+    EMAIL DISPATCH
   </text>
 </svg>
-

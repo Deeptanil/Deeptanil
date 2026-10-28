@@ -4,90 +4,89 @@
       <circle cx="2" cy="2" r="1.2" fill="#20202E" />
     </pattern>
     <style>
-      .comic-font {
-        font-family: 'Impact', 'Arial Black', -apple-system, sans-serif;
-        font-weight: 900;
+      .font-display {
+        font-family: 'Bungee', 'Impact', sans-serif;
         text-transform: uppercase;
       }
-      .mono-text {
-        font-family: 'Consolas', 'Courier New', monospace;
+      .font-heading {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', monospace;
       }
     </style>
   </defs>
 
-  <!-- Hard Shadow -->
   <rect x="8" y="8" width="404" height="324" rx="12" fill="#000000" />
-  <!-- Card Base -->
-  <rect x="2" y="2" width="404" height="324" rx="12" fill="#111118" stroke="#000000" stroke-width="3.5" />
+  <rect x="2" y="2" width="404" height="324" rx="12" fill="#0B0E17" stroke="#000000" stroke-width="3.5" />
   <rect x="2" y="2" width="404" height="324" rx="12" fill="url(#card-dots-4)" />
 
   <!-- Top Mint Accent Header -->
   <rect x="18" y="16" width="372" height="34" rx="6" fill="#000000" />
-  <rect x="15" y="13" width="372" height="34" rx="6" fill="#10B981" stroke="#000000" stroke-width="2.5" />
-  <text x="28" y="35" fill="#FFFFFF" class="comic-font" font-size="14" letter-spacing="1">
-    📱 PLATTER // 60FPS CULINARY DISCOVERY
+  <rect x="15" y="13" width="372" height="34" rx="6" fill="#00FF66" stroke="#000000" stroke-width="2.5" />
+  <rect x="28" y="20" width="8" height="13" rx="1.5" stroke="#000000" stroke-width="1.8" fill="none" />
+  <text x="44" y="35" fill="#000000" class="font-heading" font-size="12.5" letter-spacing="1">
+    PLATTER // 60FPS CULINARY DISCOVERY
   </text>
   <circle cx="368" cy="30" r="5" fill="#FFE600" stroke="#000000" stroke-width="2" />
 
-  <!-- Title with 3D Mint/Pink Offset -->
+  <!-- Title with 3D Pink Offset -->
   <g transform="translate(3, 3)">
-    <text x="20" y="85" fill="#FF2A85" class="comic-font" font-size="25" stroke="#000000" stroke-width="4.5" stroke-linejoin="round">
+    <text x="20" y="85" fill="#FF2E93" class="font-display" font-size="22" stroke="#000000" stroke-width="4.5" stroke-linejoin="round">
       MOBILE DISCOVERY APP
     </text>
   </g>
-  <text x="20" y="85" fill="#FFFFFF" class="comic-font" font-size="25" stroke="#000000" stroke-width="3" stroke-linejoin="round">
+  <text x="20" y="85" fill="#FFFFFF" class="font-display" font-size="22" stroke="#000000" stroke-width="3" stroke-linejoin="round">
     MOBILE DISCOVERY APP
   </text>
 
   <!-- Subtitle Tagline -->
-  <text x="20" y="108" fill="#10B981" class="mono-text" font-size="12" font-weight="bold">
+  <text x="20" y="108" fill="#00FF66" class="font-mono" font-size="11.5" font-weight="bold">
     React Native • Expo 57 • 60 FPS Reanimated
   </text>
 
   <!-- Metrics Badges -->
-  <!-- Pill 1 -->
-  <rect x="22" y="125" width="115" height="26" rx="5" fill="#000000" />
-  <rect x="20" y="123" width="115" height="26" rx="5" fill="#FF2A85" stroke="#000000" stroke-width="2" />
-  <text x="77" y="140" fill="#FFFFFF" text-anchor="middle" class="comic-font" font-size="11">
-    📱 13 SCREENS
+  <rect x="22" y="125" width="112" height="26" rx="5" fill="#000000" />
+  <rect x="20" y="123" width="112" height="26" rx="5" fill="#FF2E93" stroke="#000000" stroke-width="2" />
+  <text x="76" y="140" fill="#FFFFFF" text-anchor="middle" class="font-heading" font-size="10.5">
+    13 SCREENS
   </text>
 
-  <!-- Pill 2 -->
-  <rect x="145" y="125" width="120" height="26" rx="5" fill="#000000" />
-  <rect x="143" y="123" width="120" height="26" rx="5" fill="#00F0FF" stroke="#000000" stroke-width="2" />
-  <text x="203" y="140" fill="#000000" text-anchor="middle" class="comic-font" font-size="11">
-    ⚡ 60 FPS MOTION
+  <rect x="142" y="125" width="118" height="26" rx="5" fill="#000000" />
+  <rect x="140" y="123" width="118" height="26" rx="5" fill="#00F0FF" stroke="#000000" stroke-width="2" />
+  <text x="199" y="140" fill="#000000" text-anchor="middle" class="font-heading" font-size="10.5">
+    60 FPS MOTION
   </text>
 
-  <!-- Pill 3 -->
-  <rect x="273" y="125" width="113" height="26" rx="5" fill="#000000" />
-  <rect x="271" y="123" width="113" height="26" rx="5" fill="#FFE600" stroke="#000000" stroke-width="2" />
-  <text x="327" y="140" fill="#000000" text-anchor="middle" class="comic-font" font-size="11">
-    ✨ GLASS UI
+  <rect x="268" y="125" width="118" height="26" rx="5" fill="#000000" />
+  <rect x="266" y="123" width="118" height="26" rx="5" fill="#FFE600" stroke="#000000" stroke-width="2" />
+  <text x="325" y="140" fill="#000000" text-anchor="middle" class="font-heading" font-size="10.5">
+    GLASS UI
   </text>
 
   <!-- Description Box -->
-  <rect x="20" y="162" width="364" height="74" rx="6" fill="#171724" stroke="#2E2E42" stroke-width="1.5" />
-  <text x="32" y="184" fill="#E2E8F0" class="mono-text" font-size="11">
-    • 13-screen culinary discovery on React Native 0.86 &amp; React 19.
+  <rect x="20" y="162" width="364" height="74" rx="6" fill="#131929" stroke="#1E293B" stroke-width="1.5" />
+  <text x="32" y="184" fill="#E2E8F0" class="font-mono" font-size="11">
+    [+] 13-screen culinary discovery on React Native 0.86 &amp; React 19.
   </text>
-  <text x="32" y="202" fill="#E2E8F0" class="mono-text" font-size="11">
-    • Apple-inspired floating dock navigation with dynamic blur.
+  <text x="32" y="202" fill="#E2E8F0" class="font-mono" font-size="11">
+    [+] Apple-inspired floating dock navigation with dynamic blur.
   </text>
-  <text x="32" y="220" fill="#E2E8F0" class="mono-text" font-size="11">
-    • Geolocation distance calculations &amp; offline cart storage.
+  <text x="32" y="220" fill="#E2E8F0" class="font-mono" font-size="11">
+    [+] Geolocation distance calculations &amp; offline cart storage.
   </text>
 
   <!-- Tech Stack Chips -->
-  <text x="20" y="256" fill="#A0A0C0" class="mono-text" font-size="11" font-weight="bold">
-    STACK: <tspan fill="#00F0FF">React Native</tspan> • <tspan fill="#FFE600">Expo 57</tspan> • <tspan fill="#FF2A85">Reanimated</tspan> • <tspan fill="#10B981">AsyncStorage</tspan>
+  <text x="20" y="256" fill="#8E9BB0" class="font-mono" font-size="11" font-weight="bold">
+    STACK: <tspan fill="#00F0FF">React Native</tspan> • <tspan fill="#FFE600">Expo 57</tspan> • <tspan fill="#FF2E93">Reanimated</tspan> • <tspan fill="#00FF66">AsyncStorage</tspan>
   </text>
 
   <!-- Action Button -->
   <rect x="23" y="278" width="360" height="38" rx="7" fill="#000000" />
-  <rect x="20" y="275" width="360" height="38" rx="7" fill="#10B981" stroke="#000000" stroke-width="2.5" />
-  <text x="200" y="299" fill="#000000" text-anchor="middle" class="comic-font" font-size="14" letter-spacing="1">
-    EXPLORE PLATTER ➜ (PLATTER.DEEPTANIL.IN)
+  <rect x="20" y="275" width="360" height="38" rx="7" fill="#00FF66" stroke="#000000" stroke-width="2.5" />
+  <text x="200" y="299" fill="#000000" text-anchor="middle" class="font-heading" font-size="13" letter-spacing="1">
+    EXPLORE PLATTER // (PLATTER.DEEPTANIL.IN)
   </text>
 </svg>
-
