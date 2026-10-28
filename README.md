@@ -28,12 +28,4 @@
 
   <br/><br/>
 
-  <!-- ==================== HALF-YEAR CONTRIBUTION CALENDAR ==================== -->
-  <img src="./github-metrics-calendar.svg" alt="Half-Year Contribution Calendar" width="100%" />
-
-  <br/><br/>
-
-  <!-- ==================== MOST USED LANGUAGES ==================== -->
-  <img src="./github-metrics-languages.svg" alt="Most Used Languages" width="100%" />
-
 </div>
