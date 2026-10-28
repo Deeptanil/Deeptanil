@@ -1,213 +1,125 @@
 <div align="center">
 
-  <!-- ==================== HERO COMIC BANNER ==================== -->
-  <img src="./assets/hero-banner.svg" alt="Deeptanil Sinha - Product Engineer &amp; Systems Builder" width="100%" />
+```
+================================================================================
+  ____  _____ _____ ____ _____  _    _   _ ___ _       ____ ___ _   _ _   _    _   
+ |  _ \| ____| ____|  _ \_   _|/ \  | \ | |_ _| |     / ___|_ _| \ | | | | |  / \  
+ | | | |  _| |  _| | |_) || | / _ \ |  \| || || |     \___ \| ||  \| | |_| | / _ \ 
+ | |_| | |___| |___|  __/ | |/ ___ \| |\  || || |___   ___) | || |\  |  _  |/ ___ \
+ |____/|_____|_____|_|    |_/_/   \_\_| \_|___|_____| |____/___|_| \_|_| |_/_/   \_|
+================================================================================
+              // PRODUCT ENGINEER & ZERO-TO-ONE SYSTEMS ARCHITECT //
+```
 
-  <br/><br/>
-
-  <!-- ==================== ACTION DISPATCH BUTTONS ==================== -->
-  <a href="https://deeptanil.in" target="_blank">
-    <img src="./assets/btn-portfolio.svg" alt="Portfolio" height="42" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/deeptanil" target="_blank">
-    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="42" />
-  </a>
-  &nbsp;
-  <a href="mailto:deeptanilsinha27@gmail.com">
-    <img src="./assets/btn-email.svg" alt="Email" height="42" />
-  </a>
-  &nbsp;
-  <a href="https://wa.me/917760343724?text=Hi" target="_blank">
-    <img src="./assets/btn-whatsapp.svg" alt="WhatsApp" height="42" />
-  </a>
-  &nbsp;
-  <a href="./assets/Deeptanil_Sinha_Resume.pdf" target="_blank">
-    <img src="./assets/btn-resume.svg" alt="Resume CV" height="42" />
-  </a>
-
-  <br/><br/>
-
-</div>
-
----
-
-<!-- ==================== FEATURED PRODUCTION DISPATCHES ==================== -->
-<div align="center">
-  <img src="./assets/section-projects.svg" alt="Featured Production Dispatches" width="100%" />
-</div>
+<kbd><samp><b>STATUS: ONLINE</b></samp></kbd> &nbsp;
+<kbd><samp><b>LOCATION: BENGALURU, IN</b></samp></kbd> &nbsp;
+<kbd><samp><b>FOCUS: SYSTEMS &bull; UX &bull; SECURITY</b></samp></kbd>
 
 <br/>
 
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://files.deeptanil.in" target="_blank">
-        <img src="./assets/card-fileguard.svg" alt="FileGuard - Ephemeral Encrypted Vault" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://strayed.in" target="_blank">
-        <img src="./assets/card-strayed.svg" alt="Strayed - Headless DTC Storefront" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://prettiva.co" target="_blank">
-        <img src="./assets/card-prettiva.svg" alt="Prettiva &amp; Co. - High Scale Storefront" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://platter.deeptanil.in" target="_blank">
-        <img src="./assets/card-platter.svg" alt="Platter - Mobile Culinary Discovery" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
----
-
-<!-- ==================== TECH STACK & ARSENAL ==================== -->
-<div align="center">
-  <img src="./assets/section-stack.svg" alt="The Superpower Arsenal" width="100%" />
-  
-  <br/><br/>
-  
-  <img src="./assets/skills-matrix.svg" alt="Skills and Technologies Matrix" width="100%" />
-
-  <br/><br/>
-
-  <!-- Badge Row: Languages & Frameworks -->
-  <a href="#">
-    <img src="https://img.shields.io/badge/Python_3.14-000000?style=for-the-badge&logo=python&logoColor=FFE600" alt="Python" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00F0FF" alt="TypeScript" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/React_19-000000?style=for-the-badge&logo=react&logoColor=00F0FF" alt="React" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=FF2E93" alt="React Native" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=FFE600" alt="Flask" />
-  </a>
-
-  <br/><br/>
-
-  <!-- Badge Row: Cloud & Infrastructure -->
-  <a href="#">
-    <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00F0FF" alt="Docker" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Oracle_Cloud_(OCI)-000000?style=for-the-badge&logo=oracle&logoColor=FF2E93" alt="Oracle Cloud" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00F0FF" alt="PostgreSQL" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=FF2E93" alt="Redis" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Backblaze_B2-000000?style=for-the-badge&logo=backblaze&logoColor=FFE600" alt="Backblaze" />
-  </a>
-  &nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Google_UX_Design-000000?style=for-the-badge&logo=google&logoColor=00FF66" alt="Google UX" />
-  </a>
+<a href="https://deeptanil.in"><kbd><b>&nbsp;&nbsp;PORTFOLIO 3D &nbsp;&nbsp;</b></kbd></a> &nbsp;
+<a href="https://linkedin.com/in/deeptanil"><kbd><b>&nbsp;&nbsp;LINKEDIN &nbsp;&nbsp;</b></kbd></a> &nbsp;
+<a href="mailto:deeptanilsinha27@gmail.com"><kbd><b>&nbsp;&nbsp;EMAIL DISPATCH &nbsp;&nbsp;</b></kbd></a> &nbsp;
+<a href="https://wa.me/917760343724?text=Hi"><kbd><b>&nbsp;&nbsp;WHATSAPP &nbsp;&nbsp;</b></kbd></a> &nbsp;
+<a href="https://github.com/Deeptanil"><kbd><b>&nbsp;&nbsp;GITHUB REPOS &nbsp;&nbsp;</b></kbd></a>
 
 </div>
 
 <br/>
 
----
-
-<!-- ==================== ORIGIN STORY & ACADEMICS ==================== -->
-<div align="center">
-  <img src="./assets/section-about.svg" alt="Origin Story" width="100%" />
-
-  <br/><br/>
-
-  <img src="./assets/card-about.svg" alt="About Deeptanil Sinha" width="100%" />
-</div>
+> [!NOTE]
+> **MISSION BRIEF**
+> Bridging high-speed systems engineering, zero-knowledge security, and conversion UX. Co-founder of two fashion brands (**Strayed** &amp; **Prettiva &amp; Co.**). Creator of **FileGuard** and **Platter**. Architecting ephemeral cryptographic pipelines and headless cloud commerce.
 
 <br/>
 
----
-
-<!-- ==================== RADAR INTELLIGENCE / GITHUB STATS ==================== -->
-<div align="center">
-  <img src="./assets/section-stats.svg" alt="Radar Intelligence" width="100%" />
-
-  <br/><br/>
-
-  <table width="100%" border="0" cellspacing="10" cellpadding="0">
-    <tr>
-      <td width="50%" align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=Deeptanil&show_icons=true&bg_color=0B0E17&title_color=FFE600&text_color=FFFFFF&icon_color=FF2E93&border_color=000000&border_radius=10&count_private=true" alt="Deeptanil's GitHub Stats" width="100%" />
-      </td>
-      <td width="50%" align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deeptanil&layout=compact&bg_color=0B0E17&title_color=00F0FF&text_color=FFFFFF&border_color=000000&border_radius=10" alt="Top Languages" width="100%" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Deeptanil&theme=dark&background=0B0E17&border=000000&stroke=FFE600&ring=FF2E93&fire=FF2E93&currStreakNum=00F0FF&sideNums=FFE600&sideLabels=FFFFFF&currStreakLabel=00F0FF&border_radius=10" alt="GitHub Streak" width="100%" />
-
-</div>
+```ansi
+[1;33m[TELEMETRY] ───────────────────────────────────────────────────────────────────[0m
+[1;36m  ENGINEERING STACK  :[0m [1;37mPython 3.14, TypeScript, Next.js 15, React Native, Odoo ERP[0m
+[1;35m  INFRASTRUCTURE     :[0m [1;37mDocker Compose, Oracle OCI ARM, Neon Postgres, Redis, B2 S3[0m
+[1;32m  BENCHMARK SPEED    :[0m [1;32m100/100 PageSpeed SEO[0m [1;37m|[0m [1;33m12K+ Monthly Consumers[0m [1;37m|[0m [1;36m60 FPS Motion[0m
+[1;33m───────────────────────────────────────────────────────────────────────────────[0m
+```
 
 <br/>
 
----
+### ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+### ┃ 01 // PRODUCTION DISPATCHES &amp; SHIPPED SYSTEMS                           ┃
+### ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-<!-- ==================== CONNECT / DISPATCH ==================== -->
+| SYSTEM | SPECIFICATION &amp; METRICS | ARCHITECTURE | ACCESS |
+| :--- | :--- | :--- | :--- |
+| **FILEGUARD** | **Zero-Knowledge Ephemeral Vault**<br>&bull; Strict 12-hour self-destruct TTL<br>&bull; Pre-flight SHA-256 integrity gate (HTTP 409)<br>&bull; 10-thread parallel Backblaze B2 S3 streaming<br>&bull; 42 automated tests suite | <kbd>Python 3.14</kbd> <kbd>Flask</kbd><br><kbd>Neon Postgres</kbd><br><kbd>Backblaze B2</kbd> | [**Live Vault**](https://files.deeptanil.in)<br>[**Source Code**](https://github.com/Deeptanil/FileGuard.git) |
+| **STRAYED** | **Headless DTC Streetwear Storefront**<br>&bull; 1.4K+ monthly organic search views<br>&bull; 100/100 PageSpeed SEO benchmark<br>&bull; Autonomous programmatic AI SEO pipeline<br>&bull; Decoupled SSR storefront + Medusa v2 | <kbd>Next.js 15</kbd> <kbd>Medusa v2</kbd><br><kbd>Docker</kbd> <kbd>OCI ARM</kbd><br><kbd>Redis</kbd> <kbd>PostgreSQL</kbd> | [**strayed.in**](https://strayed.in) |
+| **PRETTIVA &amp; CO.** | **High-Scale Consumer E-Commerce**<br>&bull; Serving 12,000+ monthly active visitors<br>&bull; 45+ product commercial catalog<br>&bull; Custom embedded CSS overrides &amp; responsive UI<br>&bull; Full-funnel conversion rate optimization | <kbd>Odoo ERP</kbd><br><kbd>JavaScript</kbd><br><kbd>CSS Engine</kbd><br><kbd>Analytics</kbd> | [**prettiva.co**](https://prettiva.co) |
+| **PLATTER** | **60 FPS Mobile Culinary Discovery**<br>&bull; 13-screen native mobile application<br>&bull; Apple-inspired floating dock navigation<br>&bull; Geolocation distance calculation engine<br>&bull; Offline-first cart persistence | <kbd>React Native 0.86</kbd><br><kbd>React 19</kbd><br><kbd>Expo SDK 57</kbd><br><kbd>Reanimated</kbd> | [**platter.deeptanil.in**](https://platter.deeptanil.in) |
+
+<br/>
+
+### ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+### ┃ 02 // TECHNICAL ARSENAL &amp; CAPABILITIES                                   ┃
+### ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+```
++---------------------------+---------------------------+
+|  CORE LANGUAGES           |  FRAMEWORKS & RUNTIMES    |
+|  - Python 3.14 (Flask)    |  - Next.js 15 (SSR / App) |
+|  - TypeScript             |  - React 19               |
+|  - JavaScript (ES6+)      |  - React Native (Expo 57) |
+|  - C, Java, SQL           |  - Medusa v2 (Headless)   |
+|  - HTML5, Modern CSS3     |  - Odoo ERP Core          |
++---------------------------+---------------------------+
+|  CLOUD & INFRASTRUCTURE   |  CRAFT & ARCHITECTURE     |
+|  - Oracle Cloud (OCI ARM) |  - Cryptographic Gates    |
+|  - Docker Compose         |  - Zero-Knowledge Vaults  |
+|  - Neon Serverless Postgres| - 100/100 PageSpeed SEO  |
+|  - Redis Cache            |  - UI/UX Design (Google)  |
+|  - Backblaze B2 S3        |  - AI-Assisted Dev        |
++---------------------------+---------------------------+
+```
+
+<br/>
+
+### ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+### ┃ 03 // ORIGIN STORY &amp; CREDENTIALS                                       ┃
+### ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+```
+  [2024 - 2028]  MANIPAL INSTITUTE OF TECHNOLOGY, BENGALURU
+                 B.Tech in Information Technology
+                 Focus: Distributed Systems, Cryptographic Security, Web Engineering
+
+  [PROFESSIONAL] GOOGLE UX DESIGN PROFESSIONAL CERTIFICATE
+                 End-to-end user research, accessibility, design systems, and rapid prototyping
+
+  [ACADEMICS]    CBSE XII: 80.2% | CBSE X: 86.4%
+```
+
+<br/>
+
+### ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+### ┃ 04 // DISPATCH FREQUENCIES &amp; CONNECT                                    ┃
+### ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 <div align="center">
-  <img src="./assets/section-connect.svg" alt="Connect with Deeptanil" width="100%" />
 
-  <br/><br/>
+```
+  >>> TRANSMITTING ACROSS ALL FREQUENCIES <<<
+  Open for systems engineering, zero-to-one ventures, and technical direction.
+```
 
-  <p align="center">
-    <b>Got an ambitious project, systems challenge, or zero-to-one venture?</b><br/>
-    <i>Transmitting on all frequencies. Reach out anytime.</i>
-  </p>
+<a href="https://deeptanil.in"><kbd><b>&nbsp;&nbsp;[PORTFOLIO: deeptanil.in]&nbsp;&nbsp;</b></kbd></a>
+&nbsp;
+<a href="https://linkedin.com/in/deeptanil"><kbd><b>&nbsp;&nbsp;[LINKEDIN: in/deeptanil]&nbsp;&nbsp;</b></kbd></a>
+&nbsp;
+<a href="mailto:deeptanilsinha27@gmail.com"><kbd><b>&nbsp;&nbsp;[EMAIL: deeptanilsinha27@gmail.com]&nbsp;&nbsp;</b></kbd></a>
+&nbsp;
+<a href="https://wa.me/917760343724?text=Hi"><kbd><b>&nbsp;&nbsp;[WHATSAPP: +91 77603 43724]&nbsp;&nbsp;</b></kbd></a>
 
-  <a href="https://deeptanil.in" target="_blank">
-    <img src="./assets/btn-portfolio.svg" alt="Portfolio" height="38" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/deeptanil" target="_blank">
-    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="38" />
-  </a>
-  &nbsp;
-  <a href="mailto:deeptanilsinha27@gmail.com">
-    <img src="./assets/btn-email.svg" alt="Email" height="38" />
-  </a>
-  &nbsp;
-  <a href="https://wa.me/917760343724?text=Hi" target="_blank">
-    <img src="./assets/btn-whatsapp.svg" alt="WhatsApp" height="38" />
-  </a>
+<br/><br/>
 
-  <br/><br/>
-  
-  <p align="center">
-    <sub>Neo-Brutalist Architecture • Vector SVG Icons • Built &amp; Maintained by <b>Deeptanil Sinha</b></sub>
-  </p>
+```
+[SYSTEM NOTICE] 100% Native Code Markdown // Zero Images // Zero SVGs // Zero External Assets
+```
+
 </div>
