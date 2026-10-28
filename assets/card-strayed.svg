@@ -4,89 +4,90 @@
       <circle cx="2" cy="2" r="1.2" fill="#20202E" />
     </pattern>
     <style>
-      .font-display {
-        font-family: 'Bungee', 'Impact', sans-serif;
+      .comic-font {
+        font-family: 'Impact', 'Arial Black', -apple-system, sans-serif;
+        font-weight: 900;
         text-transform: uppercase;
       }
-      .font-heading {
-        font-family: 'Space Grotesk', sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-      }
-      .font-mono {
-        font-family: 'JetBrains Mono', monospace;
+      .mono-text {
+        font-family: 'Consolas', 'Courier New', monospace;
       }
     </style>
   </defs>
 
+  <!-- Hard Shadow -->
   <rect x="8" y="8" width="404" height="324" rx="12" fill="#000000" />
-  <rect x="2" y="2" width="404" height="324" rx="12" fill="#0B0E17" stroke="#000000" stroke-width="3.5" />
+  <!-- Card Base -->
+  <rect x="2" y="2" width="404" height="324" rx="12" fill="#111118" stroke="#000000" stroke-width="3.5" />
   <rect x="2" y="2" width="404" height="324" rx="12" fill="url(#card-dots-2)" />
 
   <!-- Top Cyan Accent Header -->
   <rect x="18" y="16" width="372" height="34" rx="6" fill="#000000" />
   <rect x="15" y="13" width="372" height="34" rx="6" fill="#00F0FF" stroke="#000000" stroke-width="2.5" />
-  <path d="M30 20 L26 26 L31 26 L27 32 L35 24 L30 24 Z" fill="#000000" />
-  <text x="44" y="35" fill="#000000" class="font-heading" font-size="12.5" letter-spacing="1">
-    STRAYED // HEADLESS DTC PLATFORM
+  <text x="28" y="35" fill="#000000" class="comic-font" font-size="14" letter-spacing="1">
+    ⚡ STRAYED // HEADLESS DTC PLATFORM
   </text>
   <circle cx="368" cy="30" r="5" fill="#FFE600" stroke="#000000" stroke-width="2" />
 
-  <!-- Title with 3D Pink Offset -->
+  <!-- Title with 3D Cyan/Pink Offset -->
   <g transform="translate(3, 3)">
-    <text x="20" y="85" fill="#FF2E93" class="font-display" font-size="22" stroke="#000000" stroke-width="4.5" stroke-linejoin="round">
+    <text x="20" y="85" fill="#FF2A85" class="comic-font" font-size="25" stroke="#000000" stroke-width="4.5" stroke-linejoin="round">
       HEADLESS DTC STOREFRONT
     </text>
   </g>
-  <text x="20" y="85" fill="#FFFFFF" class="font-display" font-size="22" stroke="#000000" stroke-width="3" stroke-linejoin="round">
+  <text x="20" y="85" fill="#FFFFFF" class="comic-font" font-size="25" stroke="#000000" stroke-width="3" stroke-linejoin="round">
     HEADLESS DTC STOREFRONT
   </text>
 
   <!-- Subtitle Tagline -->
-  <text x="20" y="108" fill="#FFE600" class="font-mono" font-size="11.5" font-weight="bold">
+  <text x="20" y="108" fill="#FFE600" class="mono-text" font-size="12" font-weight="bold">
     Next.js 15 SSR • Medusa v2 Engine • OCI Cloud Host
   </text>
 
   <!-- Metrics Badges -->
-  <rect x="22" y="125" width="112" height="26" rx="5" fill="#000000" />
-  <rect x="20" y="123" width="112" height="26" rx="5" fill="#FFE600" stroke="#000000" stroke-width="2" />
-  <text x="76" y="140" fill="#000000" text-anchor="middle" class="font-heading" font-size="10.5">
-    100/100 SPEED
+  <!-- Pill 1 -->
+  <rect x="22" y="125" width="115" height="26" rx="5" fill="#000000" />
+  <rect x="20" y="123" width="115" height="26" rx="5" fill="#FFE600" stroke="#000000" stroke-width="2" />
+  <text x="77" y="140" fill="#000000" text-anchor="middle" class="comic-font" font-size="11">
+    🏎️ 100/100 SPEED
   </text>
 
-  <rect x="142" y="125" width="118" height="26" rx="5" fill="#000000" />
-  <rect x="140" y="123" width="118" height="26" rx="5" fill="#00FF66" stroke="#000000" stroke-width="2" />
-  <text x="199" y="140" fill="#000000" text-anchor="middle" class="font-heading" font-size="10.5">
-    1.4K+ ORGANIC
+  <!-- Pill 2 -->
+  <rect x="145" y="125" width="120" height="26" rx="5" fill="#000000" />
+  <rect x="143" y="123" width="120" height="26" rx="5" fill="#10B981" stroke="#000000" stroke-width="2" />
+  <text x="203" y="140" fill="#FFFFFF" text-anchor="middle" class="comic-font" font-size="11">
+    📈 1.4K+ ORGANIC
   </text>
 
-  <rect x="268" y="125" width="118" height="26" rx="5" fill="#000000" />
-  <rect x="266" y="123" width="118" height="26" rx="5" fill="#FF2E93" stroke="#000000" stroke-width="2" />
-  <text x="325" y="140" fill="#FFFFFF" text-anchor="middle" class="font-heading" font-size="10.5">
-    DOCKER &amp; OCI
+  <!-- Pill 3 -->
+  <rect x="273" y="125" width="113" height="26" rx="5" fill="#000000" />
+  <rect x="271" y="123" width="113" height="26" rx="5" fill="#FF2A85" stroke="#000000" stroke-width="2" />
+  <text x="327" y="140" fill="#FFFFFF" text-anchor="middle" class="comic-font" font-size="11">
+    ☁️ DOCKER &amp; OCI
   </text>
 
   <!-- Description Box -->
-  <rect x="20" y="162" width="364" height="74" rx="6" fill="#131929" stroke="#1E293B" stroke-width="1.5" />
-  <text x="32" y="184" fill="#E2E8F0" class="font-mono" font-size="11">
-    [+] Decoupled Next.js 15 SSR storefront + Medusa v2 engine.
+  <rect x="20" y="162" width="364" height="74" rx="6" fill="#171724" stroke="#2E2E42" stroke-width="1.5" />
+  <text x="32" y="184" fill="#E2E8F0" class="mono-text" font-size="11">
+    • Decoupled Next.js 15 SSR storefront + Medusa v2 engine.
   </text>
-  <text x="32" y="202" fill="#E2E8F0" class="font-mono" font-size="11">
-    [+] Self-hosted containerized OCI ARM infra with Redis &amp; SSL.
+  <text x="32" y="202" fill="#E2E8F0" class="mono-text" font-size="11">
+    • Self-hosted containerized OCI ARM infra with Redis &amp; SSL.
   </text>
-  <text x="32" y="220" fill="#E2E8F0" class="font-mono" font-size="11">
-    [+] Autonomous programmatic AI SEO driving 1.4K+ organic visits.
+  <text x="32" y="220" fill="#E2E8F0" class="mono-text" font-size="11">
+    • Autonomous programmatic AI SEO driving 1.4K+ organic visits.
   </text>
 
   <!-- Tech Stack Chips -->
-  <text x="20" y="256" fill="#8E9BB0" class="font-mono" font-size="11" font-weight="bold">
-    STACK: <tspan fill="#00F0FF">Next.js 15</tspan> • <tspan fill="#FFE600">Medusa v2</tspan> • <tspan fill="#00FF66">Docker</tspan> • <tspan fill="#FF2E93">Redis</tspan> • <tspan fill="#FFFFFF">PostgreSQL</tspan>
+  <text x="20" y="256" fill="#A0A0C0" class="mono-text" font-size="11" font-weight="bold">
+    STACK: <tspan fill="#00F0FF">Next.js 15</tspan> • <tspan fill="#FFE600">Medusa v2</tspan> • <tspan fill="#10B981">Docker</tspan> • <tspan fill="#FF2A85">Redis</tspan> • <tspan fill="#FFFFFF">PostgreSQL</tspan>
   </text>
 
   <!-- Action Button -->
   <rect x="23" y="278" width="360" height="38" rx="7" fill="#000000" />
   <rect x="20" y="275" width="360" height="38" rx="7" fill="#00F0FF" stroke="#000000" stroke-width="2.5" />
-  <text x="200" y="299" fill="#000000" text-anchor="middle" class="font-heading" font-size="13" letter-spacing="1">
-    VISIT STRAYED.IN // (HEADLESS STOREFRONT)
+  <text x="200" y="299" fill="#000000" text-anchor="middle" class="comic-font" font-size="14" letter-spacing="1">
+    VISIT STRAYED.IN ➜
   </text>
 </svg>
+

@@ -1,140 +1,150 @@
 <svg width="860" height="420" viewBox="0 0 860 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Isometric / Halftone Dot Grid Pattern -->
+    <!-- Comic Halftone / Dot Grid Pattern -->
     <pattern id="comic-dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.5" fill="#252533" />
       <circle cx="10" cy="10" r="1.5" fill="#1B1B26" />
     </pattern>
 
+    <!-- Comic Stripes Pattern -->
+    <pattern id="stripes" width="12" height="12" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#1E1E2C" stroke-width="3" />
+    </pattern>
+
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Space+Grotesk:wght@700;800&family=JetBrains+Mono:wght@700&display=swap');
-      .font-display {
-        font-family: 'Bungee', 'Impact', sans-serif;
+      .comic-font {
+        font-family: 'Impact', 'Arial Black', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 900;
         text-transform: uppercase;
+        letter-spacing: 0.5px;
       }
-      .font-heading {
-        font-family: 'Space Grotesk', -apple-system, sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-      }
-      .font-mono {
-        font-family: 'JetBrains Mono', monospace;
+      .mono-font {
+        font-family: 'Consolas', 'Courier New', 'Fira Code', monospace;
         font-weight: 700;
+      }
+      .badge-text {
+        font-family: 'Impact', 'Arial Black', -apple-system, sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
       }
     </style>
   </defs>
 
-  <!-- Canvas Shadow & Body -->
+  <!-- Deep Comic Background Canvas with Hard Border & 3D Shadow -->
+  <!-- 3D Shadow -->
   <rect x="14" y="14" width="840" height="400" rx="14" fill="#000000" />
-  <rect x="6" y="6" width="840" height="400" rx="14" fill="#0B0E17" stroke="#000000" stroke-width="4" />
+  <!-- Main Card Body -->
+  <rect x="6" y="6" width="840" height="400" rx="14" fill="#0F0F16" stroke="#000000" stroke-width="4" />
+  <!-- Halftone Pattern Fill -->
   <rect x="6" y="6" width="840" height="400" rx="14" fill="url(#comic-dots)" />
 
-  <!-- Accent Rays (Top-Right) -->
+  <!-- Accent Comic Corner Rays (Top-Right) -->
   <path d="M720 10 L840 10 L840 130 Z" fill="#FFE600" opacity="0.12" />
-  <path d="M760 10 L840 10 L840 90 Z" fill="#FF2E93" opacity="0.15" />
+  <path d="M760 10 L840 10 L840 90 Z" fill="#FF2A85" opacity="0.15" />
 
   <!-- Top Ribbon Banner: Yellow Neo-Brutalist Strip -->
+  <!-- Shadow -->
   <rect x="42" y="32" width="776" height="38" rx="8" fill="#000000" />
+  <!-- Ribbon Base -->
   <rect x="38" y="28" width="776" height="38" rx="8" fill="#FFE600" stroke="#000000" stroke-width="3.5" />
-
-  <!-- Vector Lightning Left & Right -->
-  <path d="M60 40 L54 48 L61 48 L56 56 L67 46 L60 46 Z" fill="#000000" />
-  <path d="M800 40 L794 48 L801 48 L796 56 L807 46 L800 46 Z" fill="#000000" />
-
-  <text x="426" y="52" fill="#000000" text-anchor="middle" class="font-heading" font-size="14.5" letter-spacing="2">
-    DEEPTANIL SINHA // PRODUCT ENGINEER &amp; SYSTEMS ARCHITECT
+  <!-- Left & Right Accent Dots -->
+  <circle cx="56" cy="47" r="4" fill="#000000" />
+  <circle cx="70" cy="47" r="4" fill="#000000" />
+  <circle cx="796" cy="47" r="4" fill="#000000" />
+  <circle cx="782" cy="47" r="4" fill="#000000" />
+  <text x="426" y="52" fill="#000000" text-anchor="middle" class="comic-font" font-size="16" letter-spacing="2">
+    ⚡ DEEPTANIL SINHA // PRODUCT ENGINEER &amp; SYSTEMS BUILDER ⚡
   </text>
 
   <!-- Headline: 3D Comic Extruded Typography -->
   <!-- Shadow / 3D Extrusion Layer (Hot Pink) -->
   <g transform="translate(6, 6)">
-    <text x="426" y="125" fill="#FF2E93" text-anchor="middle" class="font-display" font-size="38" stroke="#000000" stroke-width="7" stroke-linejoin="round">
+    <text x="426" y="125" fill="#FF2A85" text-anchor="middle" class="comic-font" font-size="44" stroke="#000000" stroke-width="7" stroke-linejoin="round">
       PRODUCT ENGINEER
     </text>
-    <text x="426" y="172" fill="#FF2E93" text-anchor="middle" class="font-display" font-size="38" stroke="#000000" stroke-width="7" stroke-linejoin="round">
-      &amp; ZERO-TO-ONE BUILDER
+    <text x="426" y="172" fill="#FF2A85" text-anchor="middle" class="comic-font" font-size="44" stroke="#000000" stroke-width="7" stroke-linejoin="round">
+      &amp; ZERO-TO-ONE FOUNDER
     </text>
   </g>
 
-  <!-- Middle Shadow Layer -->
+  <!-- Middle Shadow Layer for depth -->
   <g transform="translate(3, 3)">
-    <text x="426" y="125" fill="#000000" text-anchor="middle" class="font-display" font-size="38" stroke="#000000" stroke-width="6" stroke-linejoin="round">
+    <text x="426" y="125" fill="#000000" text-anchor="middle" class="comic-font" font-size="44" stroke="#000000" stroke-width="6" stroke-linejoin="round">
       PRODUCT ENGINEER
     </text>
-    <text x="426" y="172" fill="#000000" text-anchor="middle" class="font-display" font-size="38" stroke="#000000" stroke-width="6" stroke-linejoin="round">
-      &amp; ZERO-TO-ONE BUILDER
+    <text x="426" y="172" fill="#000000" text-anchor="middle" class="comic-font" font-size="44" stroke="#000000" stroke-width="6" stroke-linejoin="round">
+      &amp; ZERO-TO-ONE FOUNDER
     </text>
   </g>
 
   <!-- Front Text Layer (Bright White with Crisp Black Stroke) -->
-  <text x="426" y="125" fill="#FFFFFF" text-anchor="middle" class="font-display" font-size="38" stroke="#000000" stroke-width="3.5" stroke-linejoin="round">
+  <text x="426" y="125" fill="#FFFFFF" text-anchor="middle" class="comic-font" font-size="44" stroke="#000000" stroke-width="4" stroke-linejoin="round">
     PRODUCT ENGINEER
   </text>
-  <text x="426" y="172" fill="#FFFFFF" text-anchor="middle" class="font-display" font-size="38" stroke="#000000" stroke-width="3.5" stroke-linejoin="round">
-    &amp; ZERO-TO-ONE BUILDER
+  <text x="426" y="172" fill="#FFFFFF" text-anchor="middle" class="comic-font" font-size="44" stroke="#000000" stroke-width="4" stroke-linejoin="round">
+    &amp; ZERO-TO-ONE FOUNDER
   </text>
 
   <!-- Comic Speech / Action Box -->
+  <!-- Shadow -->
   <rect x="42" y="206" width="776" height="84" rx="10" fill="#000000" />
-  <rect x="38" y="202" width="776" height="84" rx="10" fill="#131929" stroke="#FFE600" stroke-width="3" />
-  <polygon points="415,202 425,188 435,202" fill="#131929" stroke="#FFE600" stroke-width="3" />
-  <line x1="417" y1="202" x2="433" y2="202" stroke="#131929" stroke-width="4" />
+  <!-- Body -->
+  <rect x="38" y="202" width="776" height="84" rx="10" fill="#181824" stroke="#FFE600" stroke-width="3" />
+  <!-- Dialogue Little Comic Notch / Bubble Pointer -->
+  <polygon points="415,202 425,188 435,202" fill="#181824" stroke="#FFE600" stroke-width="3" />
+  <!-- Cover inner line -->
+  <line x1="417" y1="202" x2="433" y2="202" stroke="#181824" stroke-width="4" />
 
-  <text x="426" y="235" fill="#FFFFFF" text-anchor="middle" class="font-mono" font-size="14.5">
-    Bridging high-speed systems engineering, cryptographic security &amp; conversion UX.
+  <text x="426" y="235" fill="#FFFFFF" text-anchor="middle" class="mono-font" font-size="14.5">
+    Bridging high-speed engineering, cryptographic security &amp; conversion UX.
   </text>
-  <text x="426" y="258" fill="#8E9BB0" text-anchor="middle" class="font-mono" font-size="13">
-    Co-founder of two fashion brands (<tspan fill="#FFE600">Strayed</tspan> &amp; <tspan fill="#FFE600">Prettiva</tspan>) • Creator of <tspan fill="#00F0FF">FileGuard</tspan> &amp; <tspan fill="#FF2E93">Platter</tspan>
+  <text x="426" y="258" fill="#B3B3CC" text-anchor="middle" class="mono-font" font-size="13">
+    Co-founder of two fashion brands (<tspan fill="#FFE600" font-weight="bold">Strayed</tspan> &amp; <tspan fill="#FFE600" font-weight="bold">Prettiva</tspan>) • Creator of <tspan fill="#00F0FF" font-weight="bold">FileGuard</tspan> &amp; <tspan fill="#FF2A85" font-weight="bold">Platter</tspan>
   </text>
-  <text x="426" y="277" fill="#00F0FF" text-anchor="middle" class="font-mono" font-size="11.5" letter-spacing="1">
-    [BENCHMARK] 100/100 PAGESPEED • 12K+ ACTIVE CONSUMERS • MANIPAL '28 • GOOGLE UX CERTIFIED
+  <text x="426" y="277" fill="#00F0FF" text-anchor="middle" class="mono-font" font-size="11.5" letter-spacing="1">
+    ⚡ 100/100 PAGESPEED • 12K+ ACTIVE CONSUMERS • MANIPAL '28 • GOOGLE UX CERTIFIED ⚡
   </text>
 
   <!-- Bottom Comic Action Badges Strip -->
-  <!-- Badge 1: Hot Pink (Zero-Knowledge) -->
+  <!-- Badge 1: Hot Pink -->
   <g transform="translate(48, 316)">
     <rect x="4" y="4" width="170" height="46" rx="8" fill="#000000" />
-    <rect x="0" y="0" width="170" height="46" rx="8" fill="#FF2E93" stroke="#000000" stroke-width="3" />
-    <!-- Vector Shield -->
-    <path d="M22 17 L29 14 L36 17 V24 C36 28 29 32 29 32 C29 32 22 28 22 24 Z" stroke="#FFFFFF" stroke-width="2" fill="none" />
-    <text x="100" y="29" fill="#FFFFFF" text-anchor="middle" class="font-heading" font-size="11.5">
-      ZERO-KNOWLEDGE
+    <rect x="0" y="0" width="170" height="46" rx="8" fill="#FF2A85" stroke="#000000" stroke-width="3" />
+    <text x="85" y="29" fill="#FFFFFF" text-anchor="middle" class="comic-font badge-text">
+      🛡️ ZERO-KNOWLEDGE
     </text>
   </g>
 
-  <!-- Badge 2: Electric Cyan (100/100 Speed) -->
+  <!-- Badge 2: Electric Cyan -->
   <g transform="translate(242, 316)">
     <rect x="4" y="4" width="170" height="46" rx="8" fill="#000000" />
     <rect x="0" y="0" width="170" height="46" rx="8" fill="#00F0FF" stroke="#000000" stroke-width="3" />
-    <!-- Vector Gauge -->
-    <circle cx="28" cy="23" r="8" stroke="#000000" stroke-width="2" fill="none" />
-    <line x1="28" y1="23" x2="33" y2="18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-    <text x="98" y="29" fill="#000000" text-anchor="middle" class="font-heading" font-size="11.5">
-      100/100 SPEED
+    <text x="85" y="29" fill="#000000" text-anchor="middle" class="comic-font badge-text">
+      🏎️ 100/100 SPEED
     </text>
   </g>
 
-  <!-- Badge 3: Neon Yellow (Headless DTC) -->
+  <!-- Badge 3: Neon Yellow -->
   <g transform="translate(436, 316)">
     <rect x="4" y="4" width="170" height="46" rx="8" fill="#000000" />
     <rect x="0" y="0" width="170" height="46" rx="8" fill="#FFE600" stroke="#000000" stroke-width="3" />
-    <!-- Vector Server/Layers -->
-    <rect x="22" y="16" width="14" height="5" rx="1" stroke="#000000" stroke-width="1.8" fill="none" />
-    <rect x="22" y="24" width="14" height="5" rx="1" stroke="#000000" stroke-width="1.8" fill="none" />
-    <text x="98" y="29" fill="#000000" text-anchor="middle" class="font-heading" font-size="11.5">
-      HEADLESS DTC
+    <text x="85" y="29" fill="#000000" text-anchor="middle" class="comic-font badge-text">
+      ⚡ HEADLESS DTC
     </text>
   </g>
 
-  <!-- Badge 4: Electric Green (React Native) -->
+  <!-- Badge 4: Electric Green / Mint -->
   <g transform="translate(630, 316)">
     <rect x="4" y="4" width="170" height="46" rx="8" fill="#000000" />
-    <rect x="0" y="0" width="170" height="46" rx="8" fill="#00FF66" stroke="#000000" stroke-width="3" />
-    <!-- Vector Mobile Device -->
-    <rect x="24" y="15" width="10" height="16" rx="2" stroke="#000000" stroke-width="1.8" fill="none" />
-    <line x1="28" y1="28" x2="30" y2="28" stroke="#000000" stroke-width="1.5" stroke-linecap="round" />
-    <text x="100" y="29" fill="#000000" text-anchor="middle" class="font-heading" font-size="11.5">
-      REACT NATIVE
+    <rect x="0" y="0" width="170" height="46" rx="8" fill="#10B981" stroke="#000000" stroke-width="3" />
+    <text x="85" y="29" fill="#FFFFFF" text-anchor="middle" class="comic-font badge-text">
+      📱 REACT NATIVE
     </text>
   </g>
+
+  <!-- Comic POW Spark Star in Bottom Right -->
+  <g transform="translate(805, 30) rotate(15)">
+    <polygon points="0,-12 4,-3 13,-4 6,3 10,12 1,6 -7,10 -3,2 -11,-4 -2,-4" fill="#FFE600" stroke="#000000" stroke-width="2" />
+  </g>
 </svg>
+
